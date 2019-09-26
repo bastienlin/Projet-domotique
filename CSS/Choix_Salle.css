@@ -1,0 +1,107 @@
+.main { /*Bloc général*/
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p { /*Défini l'emplacement (en hauteur) du texte*/
+    height: 10%;
+}
+
+.text1 { /*Caractéristiques du texte*/
+    color: black;
+    font-size: 2em;
+    position: absolute;
+    top: 3%;
+}
+
+#image { /*Caractéristique de l'image supprimer*/
+    width: 10%;
+    height: 30px;
+    background-size: cover;
+    margin-left: 90%;
+}
+
+#image:hover{
+    -webkit-transform:scale(1.15);
+}
+
+
+.column { /*bloc qui contient les salles pouvant être choisies*/
+    margin-top: 175px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.nomSalle { /*texte du nom des salles*/
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+}
+
+.bloc {
+    width: 300px;
+    height: 300px;
+    background: rgb(158, 158, 158);
+    border-radius: 11px;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    margin-left: 40px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+.main img {
+    width: 200px;
+    height: 185px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: black;
+}
+
+
+section h1, footer h1, nav a {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+.bouton_ajout {
+    font-size: 1.3em;
+    text-decoration: none;
+    background: grey;
+    color: black;
+    border-radius: 11px;
+    padding: 5px;
+    position: absolute;
+    left: 48%;
+    top : 95% ;
+    margin-top: 25px;
+}
+
+.ajout {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.bouton_ajout:hover {
+    color: antiquewhite;
+}
+
+.nomSalle:hover {
+    color: antiquewhite;
+}

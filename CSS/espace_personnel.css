@@ -1,0 +1,42 @@
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: black;
+    background-image: url(../Images/fond.png);
+    background-size: cover;
+}
+
+.outer-div {
+    bottom: 70px;
+    width: 100%;
+
+}
+
+.inner-div {
+    padding: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 100px;
+    width: 40%;
+    height: 350px;
+    background-color: #696969;
+    color: #FFFFFF;
+    border-radius: 25px;
+    horiz-align: center;
+    opacity: 0.5;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+a .italic:hover {
+    font-style: italic;
+    font-size: larger;
+}

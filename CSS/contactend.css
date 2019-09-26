@@ -1,0 +1,18 @@
+.outer-div {
+    height: 445px;
+}
+
+.container {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    padding: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 150px;
+    width: 40%;
+    height: 50px;
+    text-align: center;
+    background-color: #1761a0;
+    color: #FFFFFF;
+    border-radius: 25px;
+    horiz-align: center;
+}

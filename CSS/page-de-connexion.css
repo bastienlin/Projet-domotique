@@ -1,0 +1,180 @@
+/* Définition des polices personnalisées */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Eléments principaux de la page */
+
+.taille {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.menu {
+    height: 80%;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    padding-left: 20px;
+    float: left;
+    background-color: #1761a0;
+    position: absolute;
+    overflow-x: hidden;
+    padding-top: 10px;
+    line-height: 200%;
+    color: white;
+}
+
+.menu a {
+    color: white;
+}
+
+
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+
+section h1, footer h1, nav a {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+/*Navigation : ne sert à rien car pas de nav dans cette page ? */
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    color: #181818;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+    width: 75%;
+}
+
+.right {
+    width: 25%;
+    background-color: white
+}
+
+.centrer {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.centre {
+    text-align: center;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ico_categorie {
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.main img {
+    width: 60px;
+    height: 60px;
+}
+
+.erreur {
+    color: red;
+}
+
+figcaption {
+    float: right;
+    margin: -340px;
+    padding: -340px;
+    font-size: 2em;
+}
+
+a.bouton:hover {
+    background: rgb(27, 116, 188);
+    border: 2px solid rgb(27, 116, 188);
+    color: black;
+}
+
+#encart {
+    margin-top: 20%;
+}
+
+#encart2 {
+    margin-top: 10%;
+    margin-bottom: 100%;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 30%;
+    resize: vertical;
+}
+
+input[type=password], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 30%;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #1b74bc;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#image {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    height: auto;
+    border-radius: 10px;
+}

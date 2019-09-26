@@ -1,0 +1,63 @@
+body {
+    background-image: url(../Images/fond.png);
+    background-size: cover;
+}
+
+input[type=button] { /*caractéristiques du bouton retour*/
+    margin-left: 30px;
+    margin-top: 40px;
+    background-image: url(../Images/retour1.png);
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 90px;
+    height: 90px;
+    font-size: 13px;
+}
+
+input[type=button]:hover { /*Caractéristique du bouton retour quand on passe la souris dessus*/
+    background-color: transparent;
+}
+
+.container { /*Bloc ou on ajoute la salle*/
+    padding: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 90px;
+    width: 40%;
+    height: 250px;
+    background-color: #696969;
+    opacity: 0.7;
+    color: #FFFFFF;
+    border-radius: 25px;
+    horiz-align: center;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+
+input[type=text] { /*Caractéristique du bouton pour rentrer la nom de la nouvelle salle*/
+    border-radius: 5px;
+    width: 150px;
+    height: 20px;
+    font-size: 15px;
+}
+
+input[type=submit] { /*Bouton pour finaliser le nouveau capteur*/
+    background-color: whitesmoke;
+    horiz-align: center;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 13px;
+}
+
+input[type=submit]:hover {
+    background-color: lightgrey;
+}

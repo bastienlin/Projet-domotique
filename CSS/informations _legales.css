@@ -1,0 +1,40 @@
+body {
+    /*background-image: url(../Images/fond.png);*/
+    background-image: url(../Images/fond.png);
+    opacity: 0.9;
+    background-size: cover;
+}
+
+
+
+
+h2 {
+    font-size: 20px;
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.bloc_page {
+    text-align: justify;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+#informations {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    margin-top: 100px;
+    background-color: #696969;
+    opacity: 0.5;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+
+
+nav a {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+

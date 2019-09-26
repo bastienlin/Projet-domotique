@@ -1,0 +1,197 @@
+
+body {
+    padding: 0px;
+}
+
+#centrale {
+    background-size: cover;
+    color: #FFFFFF;
+    background-image: url(../Images/fond.png);
+    bottom: 0;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid darkgrey;
+    border-top-radius-top: 100px;
+    background-color: transparent;
+    color: antiquewhite;
+    width: 80%;
+    height: 30px;
+    font-size: 17px;
+}
+
+::placeholder {
+    color: white;
+}
+
+
+input[type=email] {
+    border: none;
+    border-bottom: 2px solid darkgrey;
+    border-radius-top: 200px;
+    background-color: transparent;
+    color: antiquewhite;
+    width: 80%;
+    height: 30px;
+    font-size: 17px;
+}
+
+input[type=password] {
+    border: none;
+    border-bottom: 2px solid darkgrey;
+    border-radius-top: 100px;
+    background-color: transparent;
+    color: antiquewhite;
+    width: 80%;
+    height: 30px;
+    font-size: 17px;
+}
+
+input:focus {
+    color: white;
+}
+
+.inscription_1 {
+    margin-top: 50px;
+    text-align: left;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin-left: 140px;
+    width: 30%;
+    float: left;
+    font-size: 17px;
+}
+
+
+.inscription_2 {
+    margin-top: 200px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 17px;
+
+}
+
+
+/*the container must be positioned relative:*/
+.custom-select {
+    position: relative;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    border-radius: 15px;
+    padding: 15px;
+    justify-content: space-around;
+    text-align: center;
+    display: block;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    font-size: 17px;
+    color: whitesmoke;
+}
+
+.custom-select select {
+    display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+    background-color: whitesmoke;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #696969 transparent transparent transparent;
+    color: black;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #696969 transparent;
+    top: 7px;
+    color: black;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div, .select-selected {
+    color: black;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent transparent transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+    position: absolute;
+    background-color: whitesmoke;
+    color: #000;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+    display: none;
+}
+
+
+.inscription_3 {
+    border-radius: 11px;
+    padding: 15px;
+    justify-content: space-around;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+
+}
+
+input[type=submit] {
+    background-color: whitesmoke;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+    margin-left: 53%;
+    margin-right: 35%;
+    font-size: 13px;
+}
+
+.php {
+    text-align: center;
+    color: white;
+    width: 200px;
+    float: bottom;
+    color: white;
+}
+
+footer {
+    /*height: auto;
+     width: auto;*/
+    background: white repeat-x top;
+    border-top: 2px grey solid;
+    display: flex;
+    justify-content: space-between;
+    /*align-items: flex-start;
+    position: relative;*/
+}
+

@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Eléments principaux de la page */
+
+
+.menu {
+    height: 80%;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    padding-left: 20px;
+    float: left;
+    background-color: #1761a0;
+    position: absolute;
+    overflow-x: hidden;
+    padding-top: 10px;
+    font-size: 1.5em;
+    line-height: 200%;
+    color: white;
+}
+
+.menu a {
+    color: white;
+}
+
+.main {
+    width: 75%;
+    height: 800px;
+    padding: 0;
+    margin: 0;
+    float: right;
+    position: relative;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rechercheEmploye {
+
+
+}
+
+
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+
+section h1, footer h1, nav a {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}

@@ -1,0 +1,201 @@
+/* Eléments principaux de la page */
+
+.menu {
+    height: 85%;
+    margin: 0;
+    width: 20%;
+    float: left;
+    background-color: #1761a0;
+    position: absolute;
+    overflow-x: hidden;
+    padding-top: 10px;
+    line-height: 200%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+
+.main div {
+    border-radius: 11px;
+    padding: 20px;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-left: 34%;
+    margin-bottom: 40px;
+    color: black;
+    left: 55%;
+    font-size: 2em;
+}
+
+.main a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    width: 75%;
+    float: right;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    justify-content: space-around;
+}
+
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+
+section h1, footer h1, nav a {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+
+}
+
+.titreMenu {
+    font-size: 1.9em;
+    text-decoration: underline;
+}
+
+nav .navMenu:hover {
+    color: antiquewhite;
+    font-size: 1.3em;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+nav .navMenuStrong {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+#user {
+    color: black;
+}
+
+.ico_categorie {
+    width: 60px;
+    height: 60px;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.ajout {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+
+}
+
+
+.bouton_ajout {
+    font-size: 1.3em;
+    text-decoration: none;
+    background: grey;
+    color: black;
+    border-radius: 11px;
+    padding: 5px;
+    top: 92%;
+    left: 55%;
+    position: absolute;
+}
+
+.bouton_ajout:hover {
+    color: antiquewhite;
+}
+
+a.bouton:hover {
+    background: rgb(27, 116, 188);
+    border: 2px solid rgb(27, 116, 188);
+    color: black;
+}
+
+/* Mise en place bouton activer/désactiver */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: -2px;
+    right: 0;
+    bottom: -2px;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/*.text_reglage_auto {
+    vertical-align: middle;
+}*/
+
+
+/* FIN Mise en place bouton activer/désactiver */
+
+.imgSuppr {
+    width: 22px;
+    height: 22px;
+    margin-left: 40px;
+}

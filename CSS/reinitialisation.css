@@ -1,0 +1,40 @@
+.container {
+    padding: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 100px;
+    width: 40%;
+    height: 250px;
+    background-color: #696969;
+    color: #FFFFFF;
+    border-radius: 25px;
+    horiz-align: center;
+    opacity: 0.6;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: black;
+    background-image: url(../Images/fond.png);
+    background-size: cover;
+}
+
+input[type=submit] {
+    background-color: whitesmoke;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+
+}
+
+input[type=text] {
+    width: 250px;
+    height: 20px;
+    border-radius: 4px;
+    border-color: transparent;
+}

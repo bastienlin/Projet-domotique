@@ -1,0 +1,97 @@
+.taille { /*permet de définir les caractéristiques du body*/
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#bloc_page {
+    padding-bottom: 190px;
+}
+
+.main {
+    height: 800px;
+    padding: 0;
+    margin: 0;
+    float: none;
+    position: relative;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+
+section h1, footer h1, nav a {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+/*Navigation*/
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav h3 {
+    font-size: 1.7em;
+
+}
+
+
+nav a {
+    font-size: 1.2em;
+    color: #181818;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+
+.ico_categorie {
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.main img {
+    width: 60px;
+    height: 60px;
+}
+
+figcaption {
+    float: right;
+    margin: -340px;
+    padding: -340px;
+    font-size: 2em;
+}
+
+a.bouton:hover {
+    background: rgb(27, 116, 188);
+    border: 2px solid rgb(27, 116, 188);
+    color: black;
+}
+
+
